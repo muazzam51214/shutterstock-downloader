@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./components/meta.ejs') %>
+    <title>Download - <%= metadata.title %></title>
+  </head>
+
+  <body>
+    <div class="body-bg min-vh-100">
+      <section class="stdmax-adashboard stdmax-show">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-9 col-12 stdmax-main__column">
+              <div class="stdmax-body">
+                <div class="stdmax-dsinner">
+                  <div id="search-cta" class="search-cta mg-top-40">
+                    <h1 class="search-cta__title text-center">
+                      <span>Download</span> Image
+                    </h1>
+                  </div>
+
+                  <div class="stdmax-table mg-top-40">
+                    <% if (metadata.title) { %>
+                    <h2
+                      class="trending-action__heading"
+                      style="text-align: center"
+                    >
+                      <%= metadata.title %>
+                    </h2>
+                    <% } %>
+                    <div class="row stdmax-gap-60">
+                      <div class="col-md-6">
+                        <div class="timeline-imgbox timeline-imgbox-1">
+                          <img
+                            src="<%= imageSrc %>"
+                            alt="Shutterstock Image Download"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <form
+                          action="/download"
+                          method="post"
+                          class="download-form"
+                          style="margin-bottom: 15px;margin-top: 15px;"
+                        >
+                          <input
+                            type="hidden"
+                            name="image"
+                            value="<%= base64Image %>"
+                          />
+                          <button
+                            type="submit"
+                            class="stdmax-btn stdmax-btn__bordered bg ms-md-2 mt-2 mt-md-0 radius "
+                            style="width:100%;margin-top: 15px;"
+                          >
+                            <i class="fa fa-download"></i>&nbsp;&nbsp;&nbsp;<span class="btn__text">Download</span>
+                          </button>
+                        </form>
+                        <a href="/" class="stdmax-btn stdmax-btn__bordered bg ms-md-2 mt-2 mt-md-0 radius" style="width:100%;">Next</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <%- include('./components/footer.ejs') %>
+  </body>
+</html>
