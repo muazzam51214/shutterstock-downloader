@@ -12,39 +12,7 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-@font-face {
-    font-family: 'ProductSansLight';
-    font-weight: 300;
-    font-style: normal;
 
-}
-
-@font-face {
-    font-family: 'ProductSansRegular';
-		 src: url('../webfonts/ProductssSansRegular.woff2') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ProductSansMedium';
-		 src: url('../webfonts/ProductSans-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ProductSansBold';
-		 src: url('../webfonts/ProductSansBold.woff2') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Avenir Light';
- 	src: url('../webfonts/AvenirLight.ttf') format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
 
 body,
 button,
@@ -52,33 +20,33 @@ input,
 select,
 optgroup,
 textarea {
-    font-family: 'ProductSansRegular';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #374557;
+    color: #000000;
 }
 h1,h2,h3,h4,h5h6 {
     margin: 0 0 15px;
 }
 h1,h1 a,h2,h2 a,h3,h3 a,h4,h4 a,h5,h5 a,h6,h6 a {
-    font-family: 'ProductSansBold';
+    font-family: 'Josefin Sans';
     font-weight: 700;
     line-height: 140%;
-    color: #374557;
+    color: #000000;
 	transition:all 0.3s ease;
 }
 
 .stdmax-font-light{
-	font-family: 'ProductSansLight';
+	font-family: 'Josefin Sans';
 	font-weight:400;
 }
 .stdmax-font-regular{
-	font-family: 'ProductSansRegular';
+	font-family: 'Josefin Sans';
 	font-weight:400;
 }
 .stdmax-font-medium{
-	font-family: 'ProductSansMedium';
+	font-family: 'Josefin Sans';
 	font-weight:500;
 }
 .stdmax-lspacing{
@@ -120,7 +88,7 @@ p {
 	margin: 0 0 15px;
 }
 a{
-	color:#5356FB;
+	color:#ff3534;
 }
 a,button{
 	font-weight:700;
@@ -205,7 +173,7 @@ input::-ms-input-placeholder {
 }
 
 .nav-link:focus, .nav-link:hover {
-	color: #5356FB;
+	color: #ff3534;
 }
 /* Background */
 .stdmax-bg-cover{
@@ -289,7 +257,7 @@ input::-ms-input-placeholder {
 	margin:0;
 }
 .stdmax-smenu.stdmax-close .logo-button__icon {
-	border-color: #5356FB;
+	border-color: #ff3534;
 	width: 44px;
 	height: 44px;
 	line-height: 44px;
@@ -399,7 +367,7 @@ input::-ms-input-placeholder {
 .stdmax-smenu.stdmax-close .primary {
 	justify-content: center;
 	padding: 5px 10px;
-	background: #5356FB;
+	background: #ff3534;
 	border-radius: 50px;
 	color: #fff;
 	display: flex;
@@ -480,16 +448,16 @@ input::-ms-input-placeholder {
 	color: #F539F8;
 }
 .stdmax-scolor{
-	color: #5356FB;
+	color: #ff3534;
 }
 .stdmax-sbcolor{
-	background-color: #5356FB;
+	background-color: #ff3534;
 }
 .stdmax-offbg{
 	background-color: #f6f6f6;
 }
 .stdmax-bcolor{
-	color: #374557;
+	color: #000000;
 }
 .stdmax-tcolor{
 	color: #878F9A;
@@ -1356,12 +1324,12 @@ object {
   right: 55px;
 }
 .slick-arrow:hover {
-  background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+  background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%);
   color: #fff;
 }
 
 .slick-arrow i {
-  background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+  background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1372,7 +1340,7 @@ object {
   -webkit-text-fill-color: initial;
 }
 .nft-gr-primary{ 
-	background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+	background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%);
 } 
 
 
@@ -1390,7 +1358,7 @@ object {
 	line-height: initial;
 }
 .stdmax-btn.trs-white.bl-color {
-	color: #374557;
+	color: #000000;
 	box-shadow: none;
 }
 .stdmax-btn.trs-white.bl-color:hover {
@@ -1419,7 +1387,7 @@ object {
 /* } */
 
 /* .nft-gr-trn{ */
-	/* background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%); */
+	/* background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%); */
 	/* -webkit-background-clip: text; */
 	/* -webkit-text-fill-color: transparent; */
 	/* background-clip: text; */
@@ -1437,7 +1405,7 @@ object {
 	/* transition: all 0.3 linear; */
 	/* width: calc(100% + 4px); */
 	/* z-index: -2; */
-	/* background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%); */
+	/* background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%); */
 /* } */
 .stdmax-btn {
 	padding: 9px 23px;
@@ -1449,7 +1417,7 @@ object {
 	border: none;
 	font-size: 14px;
 	position: relative;
-	background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+	background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #ff3534 104.51%);
 	font-size: 16px;
 	color: #fff;
 }
@@ -1458,7 +1426,7 @@ object {
 }
 
 .stdmax-btn.stdmax-btn__primary {
-	background: #5356FB;
+	background: #ff3534;
 }
 .stdmax-btn.stdmax-btn__secondary {
 	background: #F539F8;
@@ -1473,11 +1441,11 @@ object {
 	color:#2E303C;
 }
 .stdmax-btn.stdmax-btn__bordered.bg {
-	background: linear-gradient(134.38deg,#f539f8,#c342f9 43.55%,#5356fb 104.51%);
+	background: #ff3534;
 	color: #fff;
 }
 .stdmax-btn.stdmax-btn__bordered.bg:hover{
-	background:linear-gradient(134.38deg,#5356fb,#c342f9 43.55%,#f539f8 104.51%)
+	background:#000000;
 }
 .stdmax-btn.radius{
 	border-radius:50px;
@@ -1500,7 +1468,7 @@ object {
 }
 
 .stdmax-btn.stdmax-btn__bordered--plus {
-	background: linear-gradient(90deg,#fff,#fff),linear-gradient(134.38deg,#f539f8,#c342f9 43.55%,#5356fb 104.51%);
+	background: linear-gradient(90deg,#fff,#fff),linear-gradient(134.38deg,#f539f8,#c342f9 43.55%,#ff3534 104.51%);
 	background-origin: padding-box, padding-box;
 	background-clip: border-box, border-box;
 	background-clip: padding-box,border-box;
@@ -1509,7 +1477,7 @@ object {
 }
 .ntfmax__btn-textgr{
 	-webkit-text-fill-color: transparent;
-	background: linear-gradient(134.38deg,#f539f8,#c342f9 43.55%,#5356fb 104.51%);
+	background: linear-gradient(134.38deg,#f539f8,#c342f9 43.55%,#ff3534 104.51%);
 	  background-clip: border-box;
 	-webkit-background-clip: text;
 }
